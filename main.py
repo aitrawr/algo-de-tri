@@ -29,6 +29,11 @@ def merge(arr, l, m, r):
                 arr[k] = R[j]
                 j += 1
             k += 1
+             
+      while i < n1:
+             arr[k] = K[i]
+             i += 1
+             k += 1
 
       while j < n2:
             arr[k] = R[j]
